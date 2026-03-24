@@ -1,0 +1,117 @@
+cforourk@smtd-cfp264ff92 tabletop-tools % git config user.email
+cforourk@umich.edu
+cforourk@smtd-cfp264ff92 tabletop-tools % node index.js
+cforourk@smtd-cfp264ff92 tabletop-tools % node index.js
+cforourk@smtd-cfp264ff92 tabletop-tools % git add . 
+cforourk@smtd-cfp264ff92 tabletop-tools % git commit --m "added can cast spell function"
+[main a701e01] added can cast spell function
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+cforourk@smtd-cfp264ff92 tabletop-tools % git add . 
+cforourk@smtd-cfp264ff92 tabletop-tools % git commit --"I think I forgot to commit on the giding or aware one. used !aware for not ture. and strike nee
+ds to be returned as true only if attack is greater than or equal to."
+zsh: event not found: aware
+cforourk@smtd-cfp264ff92 tabletop-tools % git commit --"I think I forgot to commit on the second one. I used not ture for that one and for the 3rd one greater than or equal to."
+error: unknown option `I think I forgot to commit on the second one. I used not ture for that one and for the 3rd one greater than or equal to.'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u[<mode>]] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -t, --[no-]template <file>
+                          use specified template file
+    -e, --[no-]edit       force edit of commit
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+cforourk@smtd-cfp264ff92 tabletop-tools % git commit --m "I think I forgot to commit on the second one. I used not ture for that one and for the 3rd one greater than or equal to."
+[main 887d425] I think I forgot to commit on the second one. I used not ture for that one and for the 3rd one greater than or equal to.
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+cforourk@smtd-cfp264ff92 tabletop-tools % 
+ *  History restored 
+
+cforourk@smtd-cfp264ff92 tabletop-tools % git add . 
+cforourk@smtd-cfp264ff92 tabletop-tools % git --m "the attack only works if it is more than 10 points above the armor - add 10 points to armor to determine"
+unknown option: --m
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+cforourk@smtd-cfp264ff92 tabletop-tools % git --m "the attack only works if it is more than 10 points above the armor add 10 points to armor to determine" 
+unknown option: --m
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+cforourk@smtd-cfp264ff92 tabletop-tools % git commit  --m "the attack only works if it is more than 10 points above the armor add 10 points to armor to determine"
+[main 3afcc0f] the attack only works if it is more than 10 points above the armor add 10 points to armor to determine
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+cforourk@smtd-cfp264ff92 tabletop-tools % git add . 
+cforourk@smtd-cfp264ff92 tabletop-tools % git commit --m "this was harder than I thought. I needed to do a lot of googling"
+[main 4746347] this was harder than I thought. I needed to do a lot of googling
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+cforourk@smtd-cfp264ff92 tabletop-tools % git add . 
+cforourk@smtd-cfp264ff92 tabletop-tools % get commit --m "okay so I learned that in switch case default means anything else, yay!"
+dquote> 
+dquote> git commit --m "learned that default in case is just that. It doesnt need to be set to anything it means that anything else besides the cases I listed. So I am returning 0 since that is the defau
+lt bonus"
+dquote> git add . 
+dquote> git commit   
+dquote> git push
+dquote> 
