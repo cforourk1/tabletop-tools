@@ -144,7 +144,15 @@ function getRemainingHp(maxHp, currentHp, damage) {
  * @returns {boolean} whether the creature can see
  */
 function canSee(light, vision) {
-  // TODO
+    if (light === "bright") {
+      return true
+    } else if (light === "dim" && (vision === "low-light" || vision === "dark")) {
+        return true
+    } else if (light === "dark" && vision === "dark") {
+        return true
+    } else {
+      return false
+    }
 }
 
 /**
@@ -158,5 +166,5 @@ function canSee(light, vision) {
  * @returns {number} damage dealt by the strike
  */
 function getStrikeDamage(attack, ac, damage) {
-  // TODO
+
 }
